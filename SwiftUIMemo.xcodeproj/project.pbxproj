@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		02254B19265B87070014B234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B18265B87070014B234 /* AppDelegate.swift */; };
 		02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1A265B87070014B234 /* SceneDelegate.swift */; };
-		02254B1D265B87070014B234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1C265B87070014B234 /* ContentView.swift */; };
+		02254B1D265B87070014B234 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1C265B87070014B234 /* MemoListScene.swift */; };
 		02254B20265B87070014B234 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1E265B87070014B234 /* SwiftUIMemo.xcdatamodeld */; };
 		02254B22265B870B0014B234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02254B21265B870B0014B234 /* Assets.xcassets */; };
 		02254B25265B870B0014B234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02254B24265B870B0014B234 /* Preview Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		02254B15265B87070014B234 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02254B18265B87070014B234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02254B1A265B87070014B234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02254B1C265B87070014B234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02254B1C265B87070014B234 /* MemoListScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListScene.swift; sourceTree = "<group>"; };
 		02254B1F265B87070014B234 /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		02254B21265B870B0014B234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02254B24265B870B0014B234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				02254B18265B87070014B234 /* AppDelegate.swift */,
 				02254B1A265B87070014B234 /* SceneDelegate.swift */,
-				02254B1C265B87070014B234 /* ContentView.swift */,
+				02254B1C265B87070014B234 /* MemoListScene.swift */,
 				02254B21265B870B0014B234 /* Assets.xcassets */,
 				02254B26265B870B0014B234 /* LaunchScreen.storyboard */,
 				02254B29265B870B0014B234 /* Info.plist */,
@@ -151,7 +151,7 @@
 				02254B19265B87070014B234 /* AppDelegate.swift in Sources */,
 				02254B20265B87070014B234 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */,
-				02254B1D265B87070014B234 /* ContentView.swift in Sources */,
+				02254B1D265B87070014B234 /* MemoListScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
