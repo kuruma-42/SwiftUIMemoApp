@@ -16,6 +16,7 @@
 		02254B28265B870B0014B234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02254B26265B870B0014B234 /* LaunchScreen.storyboard */; };
 		02254B33265B8BD10014B234 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B32265B8BD10014B234 /* Memo.swift */; };
 		02254B37265B8DF60014B234 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B36265B8DF60014B234 /* MemoStore.swift */; };
+		02254B3B265B99000014B234 /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B3A265B99000014B234 /* DateFormatter+Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		02254B29265B870B0014B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02254B32265B8BD10014B234 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		02254B36265B8DF60014B234 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		02254B3A265B99000014B234 /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		02254B17265B87070014B234 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				02254B39265B98A00014B234 /* Extension */,
 				02254B31265B8BB00014B234 /* Model */,
 				02254B18265B87070014B234 /* AppDelegate.swift */,
 				02254B1A265B87070014B234 /* SceneDelegate.swift */,
@@ -90,6 +93,14 @@
 				02254B36265B8DF60014B234 /* MemoStore.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		02254B39265B98A00014B234 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02254B3A265B99000014B234 /* DateFormatter+Memo.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				02254B19265B87070014B234 /* AppDelegate.swift in Sources */,
 				02254B37265B8DF60014B234 /* MemoStore.swift in Sources */,
 				02254B20265B87070014B234 /* SwiftUIMemo.xcdatamodeld in Sources */,
+				02254B3B265B99000014B234 /* DateFormatter+Memo.swift in Sources */,
 				02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */,
 				02254B1D265B87070014B234 /* MemoListScene.swift in Sources */,
 				02254B33265B8BD10014B234 /* Memo.swift in Sources */,
