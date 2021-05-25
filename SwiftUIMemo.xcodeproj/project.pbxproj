@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02076798265CBFF100D51F2F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02076797265CBFF100D51F2F /* TextView.swift */; };
+		0207679C265CC33C00D51F2F /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0207679B265CC33C00D51F2F /* KeyboardObserver.swift */; };
 		02254B19265B87070014B234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B18265B87070014B234 /* AppDelegate.swift */; };
 		02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1A265B87070014B234 /* SceneDelegate.swift */; };
 		02254B1D265B87070014B234 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1C265B87070014B234 /* MemoListScene.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		02076797265CBFF100D51F2F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		0207679B265CC33C00D51F2F /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		02254B15265B87070014B234 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02254B18265B87070014B234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02254B1A265B87070014B234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0207679A265CC30A00D51F2F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0207679B265CC33C00D51F2F /* KeyboardObserver.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		02254B0C265B87070014B234 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		02254B17265B87070014B234 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				0207679A265CC30A00D51F2F /* Shared */,
 				02254B47265BA0730014B234 /* Scene */,
 				02254B39265B98A00014B234 /* Extension */,
 				02254B31265B8BB00014B234 /* Model */,
@@ -200,6 +211,7 @@
 			files = (
 				02254B19265B87070014B234 /* AppDelegate.swift in Sources */,
 				02254B37265B8DF60014B234 /* MemoStore.swift in Sources */,
+				0207679C265CC33C00D51F2F /* KeyboardObserver.swift in Sources */,
 				02254B20265B87070014B234 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				02254B3B265B99000014B234 /* DateFormatter+Memo.swift in Sources */,
 				02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */,

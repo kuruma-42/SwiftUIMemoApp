@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ComposeScene: View {
+    @EnvironmentObject var keyboard: KeyboardObserver
     @EnvironmentObject var store: MemoStore
     @State private var content: String = ""
     
@@ -20,7 +21,9 @@ struct ComposeScene: View {
                 //초기화 후, $표시 후 하면 바인딩이 된다.
                 TextView(text: $content)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(Color.yellow)
+                    .padding(.bottom, keyboard.context.height)
+                    .animation(.easeInOut(duration: keyboard.context.animationDuration))
+//                    .background(Color.yellow)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .navigationBarTitle("새 메모", displayMode: .inline)
@@ -64,5 +67,6 @@ struct ComposeScene_Previews: PreviewProvider {
     static var previews: some View {
         ComposeScene(showComposer: .constant(false))
             .environmentObject(MemoStore())
+            .environmentObject(KeyboardObserver())
     }
 }

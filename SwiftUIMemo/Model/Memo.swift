@@ -17,7 +17,6 @@ class Memo: Identifiable, ObservableObject {
         self.id = id
         self.content = content
         self.insertDate = insertDate
-        
     }
 }
 
