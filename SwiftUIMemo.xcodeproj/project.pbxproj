@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02076798265CBFF100D51F2F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02076797265CBFF100D51F2F /* TextView.swift */; };
 		02254B19265B87070014B234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B18265B87070014B234 /* AppDelegate.swift */; };
 		02254B1B265B87070014B234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1A265B87070014B234 /* SceneDelegate.swift */; };
 		02254B1D265B87070014B234 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02254B1C265B87070014B234 /* MemoListScene.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02076797265CBFF100D51F2F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		02254B15265B87070014B234 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02254B18265B87070014B234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02254B1A265B87070014B234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				02254B44265B9E880014B234 /* MemoCell.swift */,
+				02076797265CBFF100D51F2F /* TextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				02254B33265B8BD10014B234 /* Memo.swift in Sources */,
 				02254B45265B9E880014B234 /* MemoCell.swift in Sources */,
 				02254B4A265BA1090014B234 /* ComposeScene.swift in Sources */,
+				02076798265CBFF100D51F2F /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

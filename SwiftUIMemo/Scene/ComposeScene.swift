@@ -18,7 +18,8 @@ struct ComposeScene: View {
         NavigationView {
             VStack {
                 //초기화 후, $표시 후 하면 바인딩이 된다.
-                TextField("", text: $content)
+                TextView(text: $content)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Color.yellow)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
